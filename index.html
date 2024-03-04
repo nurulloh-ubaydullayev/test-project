@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product details</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <!-- <link rel="stylesheet" href="./css/main.css" /> -->
+    <link rel="stylesheet" href="./css/minified.css" />
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Site Header -->
+    <header id="header">
+      <div class="container">
+        <nav class="breadcrump" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <img src="./assets/images/arrow.svg" alt="Arrow" />
+          <a href="/">Conveyors</a>
+          <img src="./assets/images/arrow.svg" alt="Arrow" />
+          <a href="/">Incline & Decline Conveyors</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Site main part -->
+    <main id="main">
+      <!-- Product show section -->
+      <section id="product" class="product">
+        <div class="container">
+          <!-- Product slides -->
+          <div class="product__slides slides">
+            <h1 class="product__heading product__heading--slides">
+              Incline & Decline Conveyors
+            </h1>
+            <!-- Product Presentation -->
+            <div class="slides__presentation">
+              <img
+                src="./assets/images/Conveyor.jpeg"
+                alt="Conveyor"
+                width="652"
+                height="434"
+                id="slides__presentation-img"
+              />
+
+              <div class="slides__presentation-layer">
+                <span class="slides__presentation-pointer">1/6</span>
+
+                <button class="slides__presentation-expander">
+                  <img
+                    src="./assets/images/expander.svg"
+                    alt=""
+                    width="16"
+                    height="16"
+                  />
+                </button>
+
+                <p class="slides__presentation-description">
+                  Picture shows conveyor with optional structures amd features
+                </p>
+
+                <div class="slides__presentation-navigation">
+                  <button
+                    class="navigation-btn navigation-btn-prev slides__presentation-btn-prev"
+                  >
+                    <img
+                      src="./assets/images/next-arrow.svg"
+                      aria-label="Previous slide arrow"
+                      width="16"
+                      height="16"
+                    />
+                  </button>
+                  <button
+                    class="navigation-btn navigation-btn-next slides__presentation-btn-next"
+                  >
+                    <img
+                      src="./assets/images/next-arrow.svg"
+                      aria-label="Next slide arrow"
+                      width="16"
+                      height="16"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="slides__presentation-modal">
+              <div class="slides__presentation-modal-content">
+                <img
+                  src="./assets/images/Conveyor.jpeg"
+                  alt="Conveyor"
+                  width="652"
+                  height="434"
+                />
+              </div>
+            </div>
+
+            <!-- Product slides list -->
+            <div class="slides__footer">
+              <button class="slides__footer-btn slides__footer-btn-prev">
+                <img
+                  src="./assets/images/next-arrow.svg"
+                  aria-label="Previous slide arrow"
+                  width="16"
+                  height="16"
+                />
+              </button>
+              <ul class="slides__footer-list">
+                <li class="slides__footer-slide active" data-idx="0">
+                  <img
+                    src="./assets/images/Conveyor.jpeg"
+                    alt="Conveyor"
+                    width="108"
+                    height="72"
+                  />
+                </li>
+                <li class="slides__footer-slide" data-idx="1">
+                  <img
+                    src="./assets/images/Conveyor-2.jpeg"
+                    alt="Conveyor"
+                    width="108"
+                    height="72"
+                  />
+                </li>
+                <li class="slides__footer-slide" data-idx="2">
+                  <img
+                    src="./assets/images/Conveyor.jpeg"
+                    alt="Conveyor"
+                    width="108"
+                    height="72"
+                  />
+                </li>
+                <li class="slides__footer-slide" data-idx="3">
+                  <img
+                    src="./assets/images/Conveyor-2.jpeg"
+                    alt="Conveyor"
+                    width="108"
+                    height="72"
+                  />
+                </li>
+                <li class="slides__footer-slide" data-idx="4">
+                  <img
+                    src="./assets/images/Conveyor.jpeg"
+                    alt="Conveyor"
+                    width="108"
+                    height="72"
+                  />
+                </li>
+                <li class="slides__footer-slide" data-idx="5">
+                  <img
+                    src="./assets/images/Conveyor-2.jpeg"
+                    alt="Conveyor"
+                    width="108"
+                    height="72"
+                  />
+                </li>
+                <li class="slides__footer-slide" data-idx="6">
+                  <img
+                    src="./assets/images/Conveyor.jpeg"
+                    alt="Conveyor"
+                    width="108"
+                    height="72"
+                  />
+                </li>
+              </ul>
+              <button class="slides__footer-btn slides__footer-btn-next">
+                <img
+                  src="./assets/images/next-arrow.svg"
+                  aria-label="Next slide arrow"
+                  width="16"
+                  height="16"
+                />
+              </button>
+            </div>
+          </div>
+
+          <!-- Product Form -->
+          <form class="product__form">
+            <h1 class="product__heading">Incline & Decline Conveyors</h1>
+
+            <div class="product__characteristics">
+              <div class="product__characteristics-left">
+                <div class="product__form-belt">
+                  <p class="product__form-label">
+                    Conveyor Belt Width, in
+                    <img
+                      src="./assets/images/info.svg"
+                      alt="Information icon"
+                      width="16"
+                      height="16"
+                    />
+
+                    <span class="product__form-label-tooltip"
+                      >Flexible gravity roller conveyors are ideal for
+                      maneuvering into places that are not suited for
+                      conventional conveyor systems.
+                    </span>
+                  </p>
+                  <ol class="product__form-belt-checkbox-list">
+                    <li>
+                      <label>
+                        <input type="radio" name="belt-width" value="10" />
+                        <div class="product__custom-belt-checkbox">
+                          <span>10</span>
+                        </div>
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="radio" name="belt-width" value="18" />
+                        <div class="product__custom-belt-checkbox">
+                          <span>18</span>
+                        </div>
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="radio" name="belt-width" value="24" />
+                        <div class="product__custom-belt-checkbox">
+                          <span>24</span>
+                        </div>
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="radio" name="belt-width" value="30" />
+                        <div class="product__custom-belt-checkbox">
+                          <span>30</span>
+                        </div>
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="radio" name="belt-width" value="36" />
+                        <div class="product__custom-belt-checkbox">
+                          <span>36</span>
+                        </div>
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="radio" name="belt-width" value="42" />
+                        <div class="product__custom-belt-checkbox">
+                          <span>42</span>
+                        </div>
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="radio" name="belt-width" value="48" />
+                        <div class="product__custom-belt-checkbox">
+                          <span>48</span>
+                        </div>
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="radio" name="belt-width" value="54" />
+                        <div class="product__custom-belt-checkbox">
+                          <span>54</span>
+                        </div>
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="radio" name="belt-width" value="custom" />
+                        <div
+                          class="product__custom-belt-checkbox product__custom-belt-checkbox--custom"
+                        >
+                          <span>Custom</span>
+                        </div>
+                      </label>
+                    </li>
+                  </ol>
+
+                  <div
+                    class="product__form-size-manual product__form-size-width"
+                  >
+                    <button
+                      class="navigation-btn navigation-btn-prev product__form-size-btn-prev"
+                      type="button"
+                    >
+                      <img
+                        src="./assets/images/next-arrow.svg"
+                        aria-label="Previous slide arrow"
+                        width="16"
+                        height="16"
+                      />
+                    </button>
+                    <input
+                      class="product__form-size-input"
+                      type="text"
+                      value="1”"
+                      disabled
+                    />
+                    <button
+                      class="navigation-btn navigation-btn-next product__form-size-btn-next"
+                      type="button"
+                    >
+                      <img
+                        src="./assets/images/next-arrow.svg"
+                        aria-label="Next slide arrow"
+                        width="16"
+                        height="16"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <p class="product__form-label">
+                  Bed Section Length, in
+                  <img
+                    src="./assets/images/info.svg"
+                    alt="Information icon"
+                    width="16"
+                    height="16"
+                  />
+                  <span class="product__form-label-tooltip"
+                    >Flexible gravity roller conveyors are ideal for maneuvering
+                    into places that are not suited for conventional conveyor
+                    systems.
+                  </span>
+                </p>
+                <div class="product__form-size-manual product__form-bed-length">
+                  <button
+                    class="navigation-btn navigation-btn-prev product__form-bed-length-btn-prev"
+                    type="button"
+                  >
+                    <img
+                      src="./assets/images/next-arrow.svg"
+                      aria-label="Previous slide arrow"
+                      width="16"
+                      height="16"
+                    />
+                  </button>
+                  <input
+                    class="product__form-size-input"
+                    type="text"
+                    value="1”"
+                    disabled
+                  />
+                  <button
+                    class="navigation-btn navigation-btn-next product__form-bed-length-btn-next"
+                    type="button"
+                  >
+                    <img
+                      src="./assets/images/next-arrow.svg"
+                      aria-label="Next slide arrow"
+                      width="16"
+                      height="16"
+                    />
+                  </button>
+                </div>
+
+                <div class="product__form-additionals">
+                  <ul class="product__form-additionals-list">
+                    <li class="product__form-additionals-checkbox">
+                      <label>
+                        <input
+                          type="checkbox"
+                          name="product__form-additionals"
+                          class="product__form-additionals-checkbox-input"
+                          value="Chain Driven Feeder"
+                        />
+                        <div class="product__form-additionals-custom-checkbox">
+                          Chain Driven Feeder
+                        </div>
+                      </label>
+                    </li>
+                    <li class="product__form-additionals-checkbox">
+                      <label>
+                        <input
+                          type="checkbox"
+                          name="product__form-additionals"
+                          class="product__form-additionals-checkbox-input"
+                          value="Additional Support Structures"
+                        />
+                        <div class="product__form-additionals-custom-checkbox">
+                          Additional Support Structures
+                        </div>
+                      </label>
+                    </li>
+                    <li class="product__form-additionals-checkbox">
+                      <label>
+                        <input
+                          type="checkbox"
+                          name="product__form-additionals"
+                          class="product__form-additionals-checkbox-input"
+                          value="Knee Braces"
+                        />
+                        <div class="product__form-additionals-custom-checkbox">
+                          Knee Braces
+                        </div>
+                      </label>
+                    </li>
+                    <li class="product__form-additionals-checkbox">
+                      <label>
+                        <input
+                          type="checkbox"
+                          name="product__form-additionals"
+                          class="product__form-additionals-checkbox-input"
+                          value="Enhanced support"
+                        />
+                        <div class="product__form-additionals-custom-checkbox">
+                          Enhanced support
+                        </div>
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+
+                <details class="product__form-additionals-multiple-select">
+                  <summary>Select options</summary>
+                  <ul>
+                    <li>
+                      <label
+                        ><input
+                          type="checkbox"
+                          name="product__form-additionals"
+                          value="Chain Driven Feeder"
+                          checked
+                        />
+                        <span>Chain Driven Feeder</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label
+                        ><input
+                          type="checkbox"
+                          name="product__form-additionals"
+                          value="Additional Support Structures"
+                        />
+                        <span>Additional Support Structures</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label
+                        ><input
+                          type="checkbox"
+                          name="product__form-additionals"
+                          value="Knee Braces"
+                        />
+                        <span>Knee Braces</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label
+                        ><input
+                          type="checkbox"
+                          name="product__form-additionals"
+                          value="Enhanced support"
+                        />
+                        <span>Enhanced support</span>
+                      </label>
+                    </li>
+                  </ul>
+                </details>
+              </div>
+              <div class="product__characteristics-right">
+                <div class="product__characteristics-details">
+                  <p class="product__characteristics-details-sku">
+                    SKU: <span>WMD-2446F-GRYI</span>
+                  </p>
+
+                  <div class="product__characteristics-details-tag">
+                    <img
+                      src="./assets/images/check.svg"
+                      alt="Verified icon"
+                      width="12"
+                      height="12"
+                    /><span>Upon request</span>
+                  </div>
+
+                  <div class="product__characteristics-details-rating">
+                    <div class="product__stars">
+                      <img
+                        src="./assets/images/star.svg"
+                        alt="Star icon"
+                        width="16"
+                        height="16"
+                      />
+                      <img
+                        src="./assets/images/star.svg"
+                        alt="Star icon"
+                        width="16"
+                        height="16"
+                      />
+                      <img
+                        src="./assets/images/star.svg"
+                        alt="Star icon"
+                        width="16"
+                        height="16"
+                      />
+                      <img
+                        src="./assets/images/star.svg"
+                        alt="Star icon"
+                        width="16"
+                        height="16"
+                      />
+                      <img
+                        src="./assets/images/star.svg"
+                        alt="Star icon"
+                        width="16"
+                        height="16"
+                      />
+                    </div>
+                    <span>(20)</span>
+
+                    <a href="/" class="product__rating-link">
+                      <span>read</span>
+                      <img
+                        src="./assets/images/next-arrow.svg"
+                        alt="Link arrow"
+                        width="12"
+                        height="12"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="product__characteristics-final">
+                  <p class="product__characteristics-final-price">
+                    from <span>$22360</span> ea <span>*</span>
+                  </p>
+                  <div class="product__characteristics-final-count">
+                    <button type="button" disabled data-action="minus">
+                      -
+                    </button>
+                    <input type="number" name="count" value="1" />
+                    <button type="button" data-action="plus">+</button>
+                  </div>
+
+                  <button
+                    class="product__characteristics-final-submit-btn"
+                    type="submit"
+                  >
+                    <img
+                      src="./assets/images/flag.svg"
+                      alt="Flag (submit) icon"
+                      width="13"
+                      height="16"
+                    />
+                    <span>Request</span>
+                  </button>
+
+                  <p class="product__characteristics-final-warning">
+                    *Final price is defined after a consultation with our
+                    specialist due to actual conditions of use.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
