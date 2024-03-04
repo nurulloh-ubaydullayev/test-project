@@ -18,3 +18,5 @@ Right-click on index.html file and select "Open with" and then choose your prefe
 
 Dependencies
 This project does not require any external dependencies. It runs solely on HTML, CSS, and JavaScript.
+
+You can see online demo of the project by this link: https://test-project-for-interview.netlify.app/
