@@ -16,6 +16,8 @@ OR
 
 Right-click on index.html file and select "Open with" and then choose your preferred web browser.
 
+Also you can run the project by downloading ZIP file on github repo. Then you need to unzip it following by double-click index.html file to open it in your default web browser.
+
 Dependencies
 This project does not require any external dependencies. It runs solely on HTML, CSS, and JavaScript.
 
